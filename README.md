@@ -1,6 +1,4 @@
-# Emile Shah - Personal Website
-
-A minimalist coding-themed personal website with a black background and purple accents.
+# emile personal website
 
 ## Structure
 
@@ -38,7 +36,7 @@ Replace the image placeholders in each section page:
 
 ### Styling
 
-All styles are in `style.css`. Key variables you might want to adjust:
+All styles are in `style.css`. Key variables:
 
 - **Purple color**: `#9b59b6` (used throughout)
 - **Background**: `#000000` (black)
@@ -60,12 +58,6 @@ All styles are in `style.css`. Key variables you might want to adjust:
 - Store images in an `images/` or `assets/` folder
 - Use relative paths: `<img src="images/photo.jpg">`
 - Keep image file sizes optimized for web (compress before uploading)
-
-## Customization Ideas
-
-- Add social media links to the homepage
-- Include a contact form or email link
-- Add more sections to each page
 - Include embedded videos or interactive elements
 - Add a blog section with dated posts
 
