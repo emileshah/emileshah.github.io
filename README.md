@@ -1,146 +1,74 @@
-# 🌏 The Crossroads
+# Emile Shah - Personal Website
 
-A minimalist, global, intersection-themed personal website showcasing the convergence of diplomacy, venture work, writing, and events.
+A minimalist coding-themed personal website with a black background and purple accents.
 
-## 🚀 Quick Setup for GitHub Pages
+## Structure
 
-### 1. Upload Files to Your Repository
-
-Place these files in your GitHub repository:
 ```
-your-repo/
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
-```
-
-### 2. Enable GitHub Pages
-
-1. Go to your repository settings
-2. Navigate to "Pages" in the left sidebar
-3. Under "Source", select your main branch
-4. Click "Save"
-5. Your site will be live at: `https://yourusername.github.io/your-repo/`
-
-### 3. Custom Domain (Optional)
-
-To use a custom domain:
-1. Add a `CNAME` file with your domain name
-2. Configure DNS settings with your domain provider
-3. Enable "Enforce HTTPS" in GitHub Pages settings
-
-## 🎨 Customization Guide
-
-### Update Personal Information
-
-**In `index.html`:**
-
-1. **Contact Information** (line ~270):
-   ```html
-   <a href="mailto:your-email@example.com" class="footer-link">Contact</a>
-   ```
-
-2. **Content Cards**: Update the cards in each section (Diplomacy, Venture, Thought, Events) with your actual projects and experiences.
-
-3. **Meta Description** (line 6):
-   ```html
-   <meta name="description" content="Your custom description">
-   ```
-
-### Modify Color Scheme
-
-**In `styles.css` (lines 8-13):**
-
-```css
-:root {
-    --diplomacy: #4FC3F7;  /* Change to your preferred blue */
-    --venture: #D4FF47;    /* Change to your preferred green */
-    --thought: #C77DFF;    /* Change to your preferred purple */
-    --event: #FFB347;      /* Change to your preferred orange */
-}
+├── index.html          # Homepage with navigation
+├── world.html          # World section
+├── venture.html        # Venture section
+├── events.html         # Events section
+├── community.html      # Community section
+├── style.css           # All styles
+└── script.js           # JavaScript functionality
 ```
 
-### Add More Sections
+## Customization Guide
 
-To add a new path/section:
+### Adding Images
 
-1. Add a new color variable in CSS
-2. Create a new thread in the SVG background
-3. Add a new path node on the homepage
-4. Create a new view section
-5. Update the navigation array in `script.js`
+Replace the image placeholders in each section page:
 
-## 🎯 Features
+```html
+<!-- Replace this: -->
+<div class="image-placeholder">
+    [Add your image here]
+</div>
 
-- **Animated Thread System**: Flowing neon lines that connect all paths
-- **Responsive Design**: Optimized for desktop, tablet, and mobile
-- **Smooth Navigation**: Page transitions with path highlighting
-- **Keyboard Navigation**: Use arrow keys to navigate between sections
-- **Interactive Cards**: Hover effects with subtle 3D tilt
-- **Timeline View**: Chronological event display
-- **Easter Egg**: Try the Konami code! ⬆️⬆️⬇️⬇️⬅️➡️⬅️➡️BA
+<!-- With this: -->
+<img src="path/to/your/image.jpg" alt="Description" style="max-width: 100%; height: auto;">
+```
 
-## 📱 Browser Support
+### Editing Content
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+1. **Section Titles**: Update the text inside `<h2 class="section-title">` tags
+2. **Paragraphs**: Edit text inside `<p>` tags in `.section-content` divs
+3. **List Items**: Modify the `.item-title`, `.item-date`, and `.item-description` for each project/event/initiative
 
-## 🛠️ Technical Stack
+### Styling
 
-- **HTML5**: Semantic markup
-- **CSS3**: Custom properties, animations, grid layout
-- **Vanilla JavaScript**: No dependencies
-- **SVG**: Animated thread system
-- **Google Fonts**: Inter & Spectral
+All styles are in `style.css`. Key variables you might want to adjust:
 
-## 🎭 Design Philosophy
+- **Purple color**: `#9b59b6` (used throughout)
+- **Background**: `#000000` (black)
+- **Terminal background**: `#1a1a1a`
+- **Font**: `'Courier New', monospace`
 
-The Crossroads presents multifaceted life as intersecting paths rather than scattered identities:
+## Deploying to GitHub Pages
 
-- **90% Black & White**: Minimalist base
-- **10% Neon Accents**: Strategic color highlights
-- **Large Typography**: 48-64px headlines, 16-18px body
-- **Generous Whitespace**: Breathing room for content
-- **Geometric Precision**: Diagonal paths converging at center
+1. Create a new repository named `yourusername.github.io`
+2. Upload all files to the repository
+3. Go to repository Settings → Pages
+4. Under "Source", select "Deploy from a branch"
+5. Select the `main` branch and `/ (root)` folder
+6. Click Save
+7. Your site will be available at `https://yourusername.github.io`
 
-## 📝 Content Structure
+## File Organization Tips
 
-### Homepage (Intersection Map)
-Central nexus with four branching paths representing different aspects of life.
+- Store images in an `images/` or `assets/` folder
+- Use relative paths: `<img src="images/photo.jpg">`
+- Keep image file sizes optimized for web (compress before uploading)
 
-### Diplomacy Path (Azure)
-Cross-cultural leadership, international conferences, global collaboration.
+## Customization Ideas
 
-### Venture Path (Lime)
-Entrepreneurship, innovation, startup ecosystem involvement.
+- Add social media links to the homepage
+- Include a contact form or email link
+- Add more sections to each page
+- Include embedded videos or interactive elements
+- Add a blog section with dated posts
 
-### Thought Path (Violet)
-Political analysis, cultural reflections, long-form writing.
+## Browser Compatibility
 
-### Event Crossings (Orange)
-Timeline of hosted events with impact metrics.
-
-## 🚧 Future Enhancements
-
-- [ ] Dark mode toggle
-- [ ] Multi-language support (EN/JP)
-- [ ] Scroll-based path animations
-- [ ] Node-based skill graph
-- [ ] Blog integration
-- [ ] Project case studies with images
-
-## 📄 License
-
-Feel free to use this template for your personal website. Attribution appreciated but not required.
-
-## 🤝 Contributing
-
-This is a personal website template, but suggestions and improvements are welcome!
-
----
-
-**Built with intention. Where paths converge, possibilities emerge.**
+This site uses standard HTML, CSS, and JavaScript and works on all modern browsers.
