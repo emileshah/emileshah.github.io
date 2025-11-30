@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crossroads — Akemi</title>
+    <meta name="description" content="Where diplomacy, venture, thought, and events intersect.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Spectral:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background animated threads -->
+    <svg class="background-threads" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+        <defs>
+            <linearGradient id="diplomacy-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#4FC3F7;stop-opacity:0" />
+                <stop offset="50%" style="stop-color:#4FC3F7;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#4FC3F7;stop-opacity:0" />
+            </linearGradient>
+            <linearGradient id="venture-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#D4FF47;stop-opacity:0" />
+                <stop offset="50%" style="stop-color:#D4FF47;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#D4FF47;stop-opacity:0" />
+            </linearGradient>
+            <linearGradient id="thought-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#C77DFF;stop-opacity:0" />
+                <stop offset="50%" style="stop-color:#C77DFF;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#C77DFF;stop-opacity:0" />
+            </linearGradient>
+            <linearGradient id="event-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#FFB347;stop-opacity:0" />
+                <stop offset="50%" style="stop-color:#FFB347;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#FFB347;stop-opacity:0" />
+            </linearGradient>
+        </defs>
+        
+        <!-- Diplomacy thread (NW to center) -->
+        <path class="thread thread-diplomacy" d="M 150 150 L 600 400" stroke="url(#diplomacy-gradient)" />
+        
+        <!-- Venture thread (NE to center) -->
+        <path class="thread thread-venture" d="M 1050 150 L 600 400" stroke="url(#venture-gradient)" />
+        
+        <!-- Thought thread (SE to center) -->
+        <path class="thread thread-thought" d="M 1050 650 L 600 400" stroke="url(#thought-gradient)" />
+        
+        <!-- Event thread (vertical through center) -->
+        <path class="thread thread-event" d="M 600 100 L 600 700" stroke="url(#event-gradient)" />
+    </svg>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">The Crossroads</h1>
+            <nav class="header-nav">
+                <button class="nav-link" data-path="home">Home</button>
+                <button class="nav-link" data-path="diplomacy">Diplomacy</button>
+                <button class="nav-link" data-path="venture">Venture</button>
+                <button class="nav-link" data-path="thought">Thought</button>
+                <button class="nav-link" data-path="events">Events</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <!-- Home view: The Intersection Map -->
+        <section class="view view-home active">
+            <div class="intersection-map">
+                <div class="center-nexus">
+                    <div class="nexus-circle"></div>
+                    <h2 class="nexus-title">Where worlds meet</h2>
+                    <p class="nexus-subtitle">Diplomacy · Venture · Thought · Events</p>
+                </div>
+
+                <!-- Path nodes -->
+                <div class="path-node node-diplomacy" data-path="diplomacy">
+                    <div class="node-circle"></div>
+                    <div class="node-label">
+                        <h3>Diplomacy</h3>
+                        <p>Cross-cultural bridges</p>
+                    </div>
+                </div>
+
+                <div class="path-node node-venture" data-path="venture">
+                    <div class="node-circle"></div>
+                    <div class="node-label">
+                        <h3>Venture</h3>
+                        <p>Innovation & analysis</p>
+                    </div>
+                </div>
+
+                <div class="path-node node-thought" data-path="thought">
+                    <div class="node-circle"></div>
+                    <div class="node-label">
+                        <h3>Thought</h3>
+                        <p>Ideas & reflection</p>
+                    </div>
+                </div>
+
+                <div class="path-node node-event" data-path="events">
+                    <div class="node-circle"></div>
+                    <div class="node-label">
+                        <h3>Events</h3>
+                        <p>Moments that matter</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diplomacy Path -->
+        <section class="view view-diplomacy" data-color="#4FC3F7">
+            <div class="path-header">
+                <h2 class="path-title">Diplomacy Path</h2>
+                <p class="path-subtitle">Building bridges across cultures and communities</p>
+            </div>
+            <div class="cards-container">
+                <article class="card card-diplomacy">
+                    <div class="card-tag">JASC</div>
+                    <h3 class="card-title">Japan-America Student Conference</h3>
+                    <p class="card-description">Cross-cultural dialogue and leadership development through international student exchange.</p>
+                </article>
+                <article class="card card-diplomacy">
+                    <div class="card-tag">Leadership</div>
+                    <h3 class="card-title">International Collaboration</h3>
+                    <p class="card-description">Facilitating meaningful connections across borders and cultural contexts.</p>
+                </article>
+                <article class="card card-diplomacy">
+                    <div class="card-tag">Events</div>
+                    <h3 class="card-title">Global Gatherings</h3>
+                    <p class="card-description">Organizing spaces where diverse perspectives converge and transform.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Venture Path -->
+        <section class="view view-venture" data-color="#D4FF47">
+            <div class="path-header">
+                <h2 class="path-title">Venture Path</h2>
+                <p class="path-subtitle">Exploring innovation at the intersection of ideas and execution</p>
+            </div>
+            <div class="cards-container">
+                <article class="card card-venture">
+                    <div class="card-tag">Entrepreneurship</div>
+                    <h3 class="card-title">Berkeley Haas Hub</h3>
+                    <p class="card-description">Building entrepreneurial spaces and communities for aspiring student founders.</p>
+                </article>
+                <article class="card card-venture">
+                    <div class="card-tag">Innovation</div>
+                    <h3 class="card-title">Hack-a-Chat</h3>
+                    <p class="card-description">AI-powered matching system connecting students for collaborative building sessions.</p>
+                </article>
+                <article class="card card-venture">
+                    <div class="card-tag">Analysis</div>
+                    <h3 class="card-title">Startup Ecosystem</h3>
+                    <p class="card-description">Analyzing emerging ventures and market opportunities.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Thought Path -->
+        <section class="view view-thought" data-color="#C77DFF">
+            <div class="path-header">
+                <h2 class="path-title">Thought Path</h2>
+                <p class="path-subtitle">Reflections on culture, politics, and the human condition</p>
+            </div>
+            <div class="cards-container">
+                <article class="card card-thought">
+                    <div class="card-tag">Political Analysis</div>
+                    <h3 class="card-title">East Asian Politics</h3>
+                    <p class="card-description">Exploring political transitions, conflict resolution, and state-building dynamics.</p>
+                </article>
+                <article class="card card-thought">
+                    <div class="card-tag">Cultural Study</div>
+                    <h3 class="card-title">Contemporary Japan</h3>
+                    <p class="card-description">Examining social phenomena, gender dynamics, and cultural evolution.</p>
+                </article>
+                <article class="card card-thought">
+                    <div class="card-tag">Research</div>
+                    <h3 class="card-title">Demographic Futures</h3>
+                    <p class="card-description">Analyzing population trends and their implications for society.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Event Crossings -->
+        <section class="view view-events" data-color="#FFB347">
+            <div class="path-header">
+                <h2 class="path-title">Event Crossings</h2>
+                <p class="path-subtitle">Moments where paths converge and ideas come alive</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-spine"></div>
+                <div class="timeline-events">
+                    <div class="timeline-item">
+                        <div class="timeline-node"></div>
+                        <article class="card card-event">
+                            <div class="card-tag">JASC77</div>
+                            <h3 class="card-title">Conference Coordination</h3>
+                            <p class="card-description">Managed complex logistics for 50+ participants including room assignments and event planning.</p>
+                        </article>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-node"></div>
+                        <article class="card card-event">
+                            <div class="card-tag">Community</div>
+                            <h3 class="card-title">Entrepreneurship Events</h3>
+                            <p class="card-description">Creating spaces for student founders to connect, collaborate, and build.</p>
+                        </article>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-node"></div>
+                        <article class="card card-event">
+                            <div class="card-tag">International</div>
+                            <h3 class="card-title">Cross-Cultural Gatherings</h3>
+                            <p class="card-description">Facilitating meaningful dialogue across cultures and communities.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">Where paths converge, possibilities emerge</p>
+            <div class="footer-links">
+                <a href="mailto:emileshah@berkeley.edu" class="footer-link">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
