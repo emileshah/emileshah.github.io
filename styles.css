@@ -192,7 +192,7 @@ p { color: var(--text-secondary); }
   padding: var(--nav-height) 2rem 0;
   overflow: hidden;
   /* Lavender field photo background */
-  background-image: url('photo-1600759487717-62bbb608106e.avif');
+  background-image: url('photo-1600759487717-62bbb608106e.png');
   background-size: cover;
   background-position: center 40%;
   background-attachment: fixed;
