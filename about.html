@@ -1,52 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community - Emile Shah</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me — Emile</title>
+  <meta name="description" content="Learn more about Emile — a UC Berkeley student studying Data Science and Political Science, passionate about startups and women founders." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <a href="index.html" class="back-link">back to home</a>
-        
-        <h1 class="page-title">coding</h1>
-
-        <div class="content-section">
-            <h2 class="section-title">// coding</h2>
-            <div class="section-content">
-                <p>look i know how to code!</p>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <h2 class="section-title">// Featured Image</h2>
-            <div class="image-placeholder">
-                [Add your image here]
-            </div>
-        </div>
-
-        <div class="content-section">
-            <h2 class="section-title">// Community Initiatives</h2>
-            <ul class="items-list">
-                <li>
-                    <div class="item-title">// projects coming soon</div>
-                    <div class="item-date">rn</div>
-                    <div class="item-description">
-                        building something to prove i know python look just look at my github please
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-        <div class="content-section">
-            <h2 class="section-title">// code with me</h2>
-            <div class="section-content">
-                <p>lets meet up for 2 hrs and hack something tg</p>
-            </div>
-        </div>
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">emile.</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="about.html" class="active">About Me</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <script src="script.js"></script>
+  <main>
+    <section class="page-hero">
+      <div class="section-inner">
+        <div class="hero-tag">✦ about me</div>
+        <h1>Nice to meet you.</h1>
+        <p class="page-hero-sub">I'm Emile — a student, researcher, and community builder at UC Berkeley.</p>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="section-inner about-grid">
+        <div class="about-main">
+          <div class="about-block">
+            <h2>Who I am</h2>
+            <p>I'm a student at UC Berkeley double-majoring in Data Science and Political Science. I'm drawn to problems that sit at the intersection of systems, people, and power — which is exactly where tech and policy collide.</p>
+            <p>Outside the classroom, I spend a lot of time in Berkeley's entrepreneurship community, working to connect and support women founders. I believe diverse founder communities don't just produce better companies — they change what problems get solved at scale.</p>
+          </div>
+
+          <div class="about-block">
+            <h2>What I care about</h2>
+            <p>I'm passionate about closing the funding gap for women-led startups. The data is stark: despite strong performance metrics, women founders remain dramatically underfunded. I want to change that — through community, through research, and through amplifying the founders doing the work.</p>
+            <p>I'm also deeply interested in how data shapes political narratives. As a Data Science major, I've become increasingly aware of how the same numbers can tell very different stories depending on framing — and I write about that tension often.</p>
+          </div>
+
+          <div class="about-block">
+            <h2>How I work</h2>
+            <p>I'm a connector at heart. I think the best outcomes happen when the right people are in the same room — or the same Slack channel. Whether I'm organizing events, doing research, or writing an essay, I'm always thinking about who else should be part of the conversation.</p>
+            <p>I write to think. Most of my articles start as a question I can't answer, and I write my way toward something more like understanding.</p>
+          </div>
+
+          <div class="about-block">
+            <h2>Let's connect</h2>
+            <p>I'm always happy to chat about startups, research, data, or Berkeley life. Find me on the platforms below, or just say hi — I genuinely love meeting new people.</p>
+            <div class="contact-links">
+              <a href="https://twitter.com" target="_blank" rel="noopener" class="contact-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                X / Twitter
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener" class="contact-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="about-sidebar">
+          <div class="sidebar-card">
+            <h3>Currently</h3>
+            <ul class="sidebar-list">
+              <li>📚 Studying at UC Berkeley</li>
+              <li>🚀 Supporting women founders</li>
+              <li>✍️ Writing about data & politics</li>
+              <li>🔗 Building community in the startup ecosystem</li>
+            </ul>
+          </div>
+          <div class="sidebar-card">
+            <h3>Interests</h3>
+            <div class="interest-tags">
+              <span class="tag">Venture Capital</span>
+              <span class="tag">Political Economy</span>
+              <span class="tag">Data Visualization</span>
+              <span class="tag">Community Building</span>
+              <span class="tag">Entrepreneurship</span>
+              <span class="tag">Women in Tech</span>
+              <span class="tag">Policy</span>
+              <span class="tag">Research</span>
+            </div>
+          </div>
+          <div class="sidebar-card sidebar-cta">
+            <h3>Read my writing</h3>
+            <p>Essays on startups, data, and the world I want to help build.</p>
+            <a href="articles.html" class="btn-primary">View Articles</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">emile.</span>
+        <p>Data Science & Political Science · UC Berkeley</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="X / Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Emile. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
