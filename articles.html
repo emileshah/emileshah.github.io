@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articles — Emile</title>
+  <meta name="description" content="Writing by Emile on startups, women founders, data science, and political science." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">emile.</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html" class="active">Articles</a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-hero">
+      <div class="section-inner">
+        <div class="hero-tag">✦ writing</div>
+        <h1>Articles</h1>
+        <p class="page-hero-sub">Essays and analysis on startups, data, politics, and the people at the intersections.</p>
+      </div>
+    </section>
+
+    <section class="articles-section">
+      <div class="section-inner">
+        <div class="filter-bar">
+          <span class="filter-label">Filter by tag:</span>
+          <div class="filter-tags">
+            <button class="filter-btn active" data-tag="all">All</button>
+            <button class="filter-btn" data-tag="women-founders">Women Founders</button>
+            <button class="filter-btn" data-tag="startups">Startups</button>
+            <button class="filter-btn" data-tag="data-science">Data Science</button>
+            <button class="filter-btn" data-tag="politics">Politics</button>
+            <button class="filter-btn" data-tag="berkeley">Berkeley</button>
+          </div>
+        </div>
+
+        <div class="articles-list" id="articles-list">
+          <article class="article-row" data-tags="women-founders startups">
+            <div class="article-row-meta">
+              <span class="date">June 12, 2025</span>
+              <div class="article-tags">
+                <span class="tag">Women Founders</span>
+                <span class="tag">Startups</span>
+              </div>
+            </div>
+            <div class="article-row-content">
+              <h2><a href="article.html">Why Women-Led Startups Are Still Underfunded — And What's Changing</a></h2>
+              <p>Despite comprising nearly half the workforce, women-led startups received only 2.3% of venture capital funding last year. Here's what the data tells us, and why a new generation of founders is changing the story.</p>
+              <a href="article.html" class="read-more">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="article-row" data-tags="data-science politics">
+            <div class="article-row-meta">
+              <span class="date">May 28, 2025</span>
+              <div class="article-tags">
+                <span class="tag">Data Science</span>
+                <span class="tag">Politics</span>
+              </div>
+            </div>
+            <div class="article-row-content">
+              <h2><a href="article.html">What Polling Data Gets Wrong About Gen Z Political Engagement</a></h2>
+              <p>Aggregated surveys miss crucial nuance. A closer look at county-level data reveals surprising patterns in how younger voters engage — and don't — with electoral politics.</p>
+              <a href="article.html" class="read-more">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="article-row" data-tags="berkeley startups">
+            <div class="article-row-meta">
+              <span class="date">May 3, 2025</span>
+              <div class="article-tags">
+                <span class="tag">Berkeley</span>
+                <span class="tag">Entrepreneurship</span>
+              </div>
+            </div>
+            <div class="article-row-content">
+              <h2><a href="article.html">The Best Resources at Berkeley for Aspiring Founders Nobody Talks About</a></h2>
+              <p>From Haas programs to hidden gems — an honest guide from someone who's used them all. Includes programs, people, and communities worth your time.</p>
+              <a href="article.html" class="read-more">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="article-row" data-tags="women-founders">
+            <div class="article-row-meta">
+              <span class="date">April 14, 2025</span>
+              <div class="article-tags">
+                <span class="tag">Women Founders</span>
+              </div>
+            </div>
+            <div class="article-row-content">
+              <h2><a href="article.html">Mentorship Networks and Why They Actually Matter for Closing the Funding Gap</a></h2>
+              <p>Warm intros drive deals. But who has access to warm intro networks — and how community-building is starting to shift those dynamics.</p>
+              <a href="article.html" class="read-more">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="article-row" data-tags="data-science">
+            <div class="article-row-meta">
+              <span class="date">March 22, 2025</span>
+              <div class="article-tags">
+                <span class="tag">Data Science</span>
+              </div>
+            </div>
+            <div class="article-row-content">
+              <h2><a href="article.html">Learning to Ask Better Questions: How Data Science Changed How I Read the News</a></h2>
+              <p>A year into my major, the most valuable skill wasn't a tool or a language — it was a habit of mind for evaluating claims made with numbers.</p>
+              <a href="article.html" class="read-more">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="article-row" data-tags="politics">
+            <div class="article-row-meta">
+              <span class="date">February 8, 2025</span>
+              <div class="article-tags">
+                <span class="tag">Politics</span>
+              </div>
+            </div>
+            <div class="article-row-content">
+              <h2><a href="article.html">Why Policy and Startups Need Each Other More Than Ever</a></h2>
+              <p>The most interesting problems of the next decade sit exactly at the border between technology and governance. Here's why that's an opportunity, not an obstacle.</p>
+              <a href="article.html" class="read-more">Read Article →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">emile.</span>
+        <p>Data Science & Political Science · UC Berkeley</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="X / Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Emile. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
