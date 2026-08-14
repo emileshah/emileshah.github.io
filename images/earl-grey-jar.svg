@@ -1,0 +1,33 @@
+<svg viewBox="0 0 600 750" xmlns="http://www.w3.org/2000/svg">
+  <!-- ==== JAR PLACEHOLDER: earl-grey ====
+       Simple flat shape: lid + body + label band.
+       Swap this whole file for real art later; keep the same
+       600x750 canvas so it lines up with the others. -->
+
+  <!-- soft drop shadow ellipse (sits under the jar on the shelf) -->
+  <ellipse cx="300" cy="715" rx="190" ry="24" fill="#000000" opacity="0.12"/>
+
+  <!-- lid knob -->
+  <rect x="270" y="6" width="60" height="26" rx="10" fill="#2E1D15"/>
+
+  <!-- lid -->
+  <rect x="120" y="26" width="360" height="70" rx="24" fill="#2E1D15"/>
+
+  <!-- jar body -->
+  <rect x="70" y="90" width="460" height="600" rx="60" fill="#4A3226"/>
+
+  <!-- body highlight (single flat shape, no gradient, just a lighter panel) -->
+  <rect x="100" y="120" width="60" height="540" rx="30" fill="#ffffff" opacity="0.15"/>
+
+  <!-- label band -->
+  <rect x="130" y="340" width="340" height="150" rx="18" fill="#E9DDD2"/>
+  <rect x="130" y="340" width="340" height="150" rx="18" fill="none" stroke="#2E1D15" stroke-width="4" opacity="0.5"/>
+
+  <!-- simple leaf glyph above label -->
+  <path d="M300 250 C 260 260, 250 300, 300 330 C 350 300, 340 260, 300 250 Z" fill="#2E1D15"/>
+  <line x1="300" y1="250" x2="300" y2="330" stroke="#4A3226" stroke-width="4"/>
+
+  <!-- label text -->
+  <text x="300" y="425" font-family="Quicksand, sans-serif" font-size="46" font-weight="600"
+        text-anchor="middle" fill="#F2E9DF">earl grey</text>
+</svg>

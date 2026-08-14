@@ -1,0 +1,9 @@
+<svg viewBox="0 0 1200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- ==== SHELF PLANK ====
+       Light birch-toned plank, repeated under every row of jars.
+       Simple flat rect + a few darker "wood grain" lines. -->
+  <rect x="0" y="0" width="1200" height="60" fill="#D9BF95"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#E6D2AC"/>
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="#B99A68" stroke-width="2" opacity="0.5"/>
+  <line x1="0" y1="45" x2="1200" y2="45" stroke="#B99A68" stroke-width="2" opacity="0.35"/>
+</svg>

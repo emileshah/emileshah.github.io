@@ -1,0 +1,22 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- ==== LEAF PLACEHOLDER: matcha ====
+       Single flat leaf silhouette + vein line + tiny stem.
+       500x500 canvas -- swap for a real close-up leaf illustration/photo later. -->
+  <path d="M250 60
+           C 380 100, 430 220, 400 320
+           C 370 420, 280 460, 250 460
+           C 220 460, 130 420, 100 320
+           C 70 220, 120 100, 250 60 Z"
+        fill="#7CB342"/>
+  <path d="M250 60
+           C 380 100, 430 220, 400 320
+           C 370 420, 280 460, 250 460
+           Z"
+        fill="#5C8A2E" opacity="0.35"/>
+  <line x1="250" y1="90" x2="250" y2="450" stroke="#5C8A2E" stroke-width="6" opacity="0.6"/>
+  <line x1="250" y1="180" x2="180" y2="230" stroke="#5C8A2E" stroke-width="3" opacity="0.5"/>
+  <line x1="250" y1="180" x2="320" y2="230" stroke="#5C8A2E" stroke-width="3" opacity="0.5"/>
+  <line x1="250" y1="280" x2="190" y2="330" stroke="#5C8A2E" stroke-width="3" opacity="0.5"/>
+  <line x1="250" y1="280" x2="310" y2="330" stroke="#5C8A2E" stroke-width="3" opacity="0.5"/>
+  <rect x="240" y="450" width="20" height="40" rx="8" fill="#5C8A2E"/>
+</svg>
