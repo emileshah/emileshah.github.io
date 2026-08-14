@@ -48,7 +48,7 @@ const CHAPTERS = [
   },
   {
     id: "magnetar",
-    jarImage: "images/jars/earl-grey-jar.svg",
+    jarImage: "images/jars/earl-grey-jar.png",
     leafImage: "images/leaves/earl-grey-leaf.svg",
     title: "magnetar internship",
     teaType: "aged earl grey · black · strong brew",
